@@ -14,3 +14,10 @@ deno task start
 ```
 
 This will watch the project directory and restart as necessary.
+
+### Environment variables
+
+```
+basePath (optional): string
+phoneNumber (obligatory): string
+```

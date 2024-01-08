@@ -5,7 +5,9 @@
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $index from "./routes/index.tsx";
-
+import * as $Image from "./islands/Image.tsx";
+import * as $components_HideableHeader_index from "./islands/components/HideableHeader/index.tsx";
+import * as $hooks_useScroll from "./islands/hooks/useScroll.ts";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -14,7 +16,12 @@ const manifest = {
     "./routes/_app.tsx": $_app,
     "./routes/index.tsx": $index,
   },
-  islands: {},
+  islands: {
+    "./islands/Image.tsx": $Image,
+    "./islands/components/HideableHeader/index.tsx":
+      $components_HideableHeader_index,
+    "./islands/hooks/useScroll.ts": $hooks_useScroll,
+  },
   baseUrl: import.meta.url,
 } satisfies Manifest;
 
