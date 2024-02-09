@@ -48,7 +48,7 @@ const Component = ({ name, picture, price, priceSale }: Props) => {
           >
             <img
               alt={name}
-              className="w-full h-full object-cover duration-[400ms] ease-in-out hover:scale-[1.2]"
+              className="w-full h-full object-cover duration-[400ms] ease-in-out hover:scale-[1.2] md:hover:scale-[initial]"
               loading="lazy"
               src={"/image/mangas/" + picture}
             />
