@@ -30,7 +30,9 @@ const Component = () => {
             </a>
             <a
               className="text-[#E1306C] flex justify-center w-fit md:m-auto"
-              href=""
+              href="https://www.instagram.com/nankomangas/"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               <Instagram />
             </a>
