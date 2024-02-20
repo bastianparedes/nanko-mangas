@@ -14,6 +14,7 @@
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.6.3/",
     "csv": "https://deno.land/x/csv@v0.9.2/mod.ts",
+    "nodemailer": "npm:nodemailer@6.9.9",
     "preact": "https://esm.sh/preact@10.19.2",
     "preact/": "https://esm.sh/preact@10.19.2/",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",

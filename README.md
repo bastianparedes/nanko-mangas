@@ -17,7 +17,10 @@ This will watch the project directory and restart as necessary.
 
 ### Environment variables
 
-```
-basePath (optional): string
-phoneNumber (obligatory): string
-```
+| Variable      | Mandatory | Type   |
+| ------------- | --------- | ------ |
+| basePath      | No        | string |
+| phoneNumber   | Yes       | string |
+| email         | Yes       | string |
+| email         | Yes       | string |
+| emailPassword | Yes       | string |

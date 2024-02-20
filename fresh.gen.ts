@@ -4,9 +4,11 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $api_sendMail from "./routes/api/sendMail.ts";
 import * as $index from "./routes/index.tsx";
 import * as $Image from "./islands/Image.tsx";
 import * as $components_HideableHeader_index from "./islands/components/HideableHeader/index.tsx";
+import * as $components_Modal_index from "./islands/components/Modal/index.tsx";
 import * as $hooks_useScroll from "./islands/hooks/useScroll.ts";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -14,12 +16,14 @@ const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/api/sendMail.ts": $api_sendMail,
     "./routes/index.tsx": $index,
   },
   islands: {
     "./islands/Image.tsx": $Image,
     "./islands/components/HideableHeader/index.tsx":
       $components_HideableHeader_index,
+    "./islands/components/Modal/index.tsx": $components_Modal_index,
     "./islands/hooks/useScroll.ts": $hooks_useScroll,
   },
   baseUrl: import.meta.url,
